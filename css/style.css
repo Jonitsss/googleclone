@@ -1,0 +1,13 @@
+body {
+    background-color: #202124;
+    color: #FFFFFF;
+}
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.grid-apps {
+    width: 24px;
+    height: 24px;
+}
