@@ -151,7 +151,6 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 90px;
     background-color: #171717;
     display: flex;
     flex-direction: column;
@@ -165,16 +164,27 @@ footer p{
 footer div{
     height: 50%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 0px 32px
 }
 
-footer div.informacion{
+footer div.info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     border-top: #363738 solid 1px;
 }
+.d-left {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
+.d-rigth {
+    display: flex;
+    flex-wrap: wrap;
+}
 footer div div{
     display: flex;
     gap: 25px;
@@ -187,4 +197,10 @@ footer div div a {
 }
 footer div a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 1200px) {
+    footer div.info, .d-left, .d-rigth {
+        justify-content: space-evenly;
+    }
 }
