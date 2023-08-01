@@ -154,7 +154,6 @@ footer {
     background-color: #171717;
     display: flex;
     flex-direction: column;
-    
 }
 
 footer p{
@@ -171,20 +170,11 @@ footer div{
 
 footer div.info{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     border-top: #363738 solid 1px;
 }
-.d-left {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 
-.d-rigth {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 footer div div{
     display: flex;
     gap: 25px;
