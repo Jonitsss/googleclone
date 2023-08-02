@@ -70,11 +70,12 @@ header .options a:hover {
     align-items: center;
     gap: 32px;
 }
-
+/*
 .logo {
     height: 92px;
     margin-top: 80px;
 }
+*/
 
 .input-txt {
     width: 100%;
@@ -165,7 +166,7 @@ footer div{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0px 32px
+    padding: 0px 32px;
 }
 
 footer div.info{
@@ -184,6 +185,10 @@ footer div div a {
     font-size: 14px;
     color: #999da2;
     text-decoration: none;
+}
+
+.d-left, .d-rigth {
+    padding: 10px 0px;
 }
 footer div a:hover {
     text-decoration: underline;
